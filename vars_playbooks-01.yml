@@ -1,0 +1,58 @@
+---
+- name: Play-01 - Apache deployment 
+  hosts: prod 
+  vars:
+     apache_pkg: httpd
+     firewall_pkg: firewalld 
+     apache_svc: httpd
+     firewall_svc: firewalld 
+     firewall_rule: http 
+  tasks: 
+     - name: APache instalation - task-01
+       ansible.builtin.yum:
+          name: "{{ apache_pkg }}"
+          state: present 
+
+     - name: Apache services - start and enable - task-02
+       ansible.builtin.service:
+          name: "{{ apache_svc }}"
+          state: started
+          enabled: true 
+
+     - name: firewall instalation - task-03
+       ansible.builtin.yum:
+          name: "{{ firewall_pkg }}"
+          state: present 
+
+     - name: Firewalld services - start and enable - task-04
+       ansible.builtin.service:
+          name: "{{ firewall_svc }}"
+          state: started
+          enabled: true 
+
+     - name: Application deployment - index.html deployment - task-05 
+       copy: 
+          content: "My web server -02 \n"
+          dest: /var/www/html/index.html 
+
+     - name: Adding firewalld rules - 5th task
+       ansible.builtin.firewalld:
+          service: "{{ firewall_rule }}"
+          immediate: yes
+          permanent: yes
+          state: enabled
+      
+- name: play-02 - Validate the application url.
+  hosts: localhost
+  become: false
+  gather_facts: no
+  tasks:
+     - name: Verify the app URL.
+       vars:
+           server_name: servera.lab.example.com
+       ansible.builtin.uri:
+          url: http://{{server_name}}
+          ###      url: "{{server_name }}"    
+          return_content: yes
+          status_code: 200
+

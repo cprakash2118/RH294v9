@@ -1,0 +1,32 @@
+---
+- name: Group Creation.
+  hosts: prod 
+  vars:
+      group_list:
+         - unixadm 
+         - dbadm
+         - wintel
+         - middleware
+         - app01 
+    
+  tasks:
+    - name: Group Creation 
+      ansible.builtin.group:
+          name: "{{ item }}"
+          state: present 
+      loop: "{{ group_list }}"
+
+
+    - name: User Creation.
+      ansible.builtin.user:
+          name: "{{ item.name }}"
+          group: "{{ item.p_grp}}"
+          uid: "{{ item.uid}}"
+          password: "{{ 'redhat123' | password_hash('sha512') }}"
+          state: present 
+      loop:
+          - {name: user1 , p_grp: unixadm, uid: 11221}
+          - {name: user2 , p_grp: dbadm, uid: 11222}
+          - {name: user3 , p_grp: wintel, uid: 11223}
+          - {name: user4 , p_grp: middleware, uid: 11224}
+          - {name: user5 , p_grp: app01, uid: 11225}

@@ -1,0 +1,32 @@
+---
+- name: Play-01 - Apache deployment.
+  hosts: prod 
+  vars_files:
+      - vars-02.yml 
+  tasks:
+     - name: INstallation of specific packages.
+       ansible.builtin.yum: 
+          name: "{{ item }}"
+          state: present 
+       loop: "{{  package_name }}"
+
+     #- name: INstallation of specific packages.
+     #  ansible.builtin.yum: 
+     #     name: "{{ package_name }}"
+     #     state: present 
+
+     #- name: INstallation of specific packages.
+     #  ansible.builtin.yum: 
+     #     name: 
+     #         - httpd
+     #         - firewalld 
+     #     state: present 
+     - name: Start and enable services
+       ansible.builtin.service:
+          name: "{{ item }}"
+          state: restarted 
+          enabled: yes 
+       loop: "{{ service_name }}" 
+
+
+
