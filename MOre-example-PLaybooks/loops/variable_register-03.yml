@@ -1,0 +1,19 @@
+---
+- name: Register variable 
+  hosts: dev
+  tasks:
+     - name: systemctl status sshd 
+       ansible.builtin.user:
+           name: john
+           state: present 
+       register: var_info
+
+     - name: DIsplay 
+       ansible.builtin.debug:
+         var: var_info
+
+     - name: Display -2nd
+       ansible.builtin.debug:
+         msg: |
+           "This is my GID = {{ var_info.group }}
+            This is my Home Dir = {{ var_info.home }}" 

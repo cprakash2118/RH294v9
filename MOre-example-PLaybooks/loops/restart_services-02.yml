@@ -1,0 +1,21 @@
+---
+- name: Restart multiple service.
+  hosts: all
+  vars:
+    - service_list:
+        - sshd 
+        - rsyslog 
+    - service_list2:
+        - chronyd
+        - httpd
+  tasks:
+      - name: 1st-task 
+        ansible.builtin.debug:
+           msg: "This is my 2nd task -"
+        when: inventory_hostname in groups['dev']
+
+      - name: 2nd-task 
+        ansible.builtin.debug:
+           msg: "This is my 3rd task"
+        when: inventory_hostname in groups['qa']
+

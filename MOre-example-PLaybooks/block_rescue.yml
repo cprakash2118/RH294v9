@@ -1,0 +1,28 @@
+---
+- name: Block rescue and always 
+  hosts: all 
+  tasks:
+    - name: Block 
+      block: 
+         - name: INstall packages - block -1st task
+           ansible.builtin.yum:
+                name: ex294 
+                state: present 
+           ignore_errors: yes
+
+         - name: Start service - Block - 2nd task
+           ansible.builtin.service:
+                name: rh294 
+                state: started 
+
+      rescue:
+         - name: DIsplay - rescue
+           ansible.builtin.debug:
+               msg: "Rescue-01"
+
+      always: 
+         - name: DIsplay - always
+           ansible.builtin.debug:
+               msg: "always"
+
+           

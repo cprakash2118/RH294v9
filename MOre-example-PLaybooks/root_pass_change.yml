@@ -1,0 +1,11 @@
+---
+- name: Root password change.
+  hosts: prod 
+  vars_files:
+      - pass.yml 
+  tasks:
+    - name: User Creation.
+      ansible.builtin.user:
+          name: root
+          password: "{{ root_pass | password_hash('sha512') }}"
+

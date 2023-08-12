@@ -1,0 +1,13 @@
+---
+- name: Register variable 
+  hosts: dev
+  tasks:
+     - name: systemctl status sshd 
+       ansible.builtin.yum:
+           name: httpd
+           state: present 
+       register: var_info
+
+     - name: DIsplay 
+       ansible.builtin.debug:
+         var: var_info

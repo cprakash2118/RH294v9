@@ -1,0 +1,7 @@
+     apache_pkg: httpd
+     firewall_pkg: firewalld
+     apache_svc: httpd
+     firewall_svc: firewalld
+     firewall_rule: http
+     server_name: servera.lab.example.com
+

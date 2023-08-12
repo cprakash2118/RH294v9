@@ -1,0 +1,11 @@
+package_name:
+      - httpd
+      - firewalld 
+
+service_name:
+      - httpd
+      - firewalld 
+
+firewall_rules:
+      - http
+      - https 

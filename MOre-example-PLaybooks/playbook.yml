@@ -1,0 +1,45 @@
+---
+ - name: Install apache package - 1st play
+   hosts: dev,qa,prod 
+   gather_facts: no
+   tasks:
+     - name: Apache installation - 1st task
+       ansible.builtin.yum: 
+          name: httpd
+          state: present 
+
+     - name: Start and enable apache servie - 2nd task
+       ansible.builtin.service:
+          name: httpd
+          state: started 
+          enabled: yes
+     
+   
+     - name: Deploy index.html page - 3rd task
+       ansible.builtin.copy: 
+          content: "This is my webserver \n"
+          dest: /var/www/html/index.html 
+
+     - name: INstall firewall packages - 4th task 
+       ansible.builtin.yum:
+          name: firewalld 
+          state: present 
+
+     - name: Adding firewalld rules - 5th task 
+       ansible.builtin.firewalld:
+          service: http
+          immediate: yes
+          permanent: yes
+          state: enabled
+
+ - name: Validate the application url.
+   hosts: localhost
+   become: false 
+   gather_facts: no
+   tasks:
+       - name: Verify the app URL.
+         ansible.builtin.uri:
+          url: http://servera.lab.example.com 
+          return_content: yes
+          status_code: 200
+...

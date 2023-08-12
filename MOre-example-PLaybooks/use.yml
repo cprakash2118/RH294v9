@@ -1,0 +1,7 @@
+---
+- name: Use custom facts 
+  hosts: dev 
+  tasks:
+    - name: Display.
+      ansible.builtin.debug:
+         msg: "My custom facts - {{ ansible_local.custom.general.package }}"

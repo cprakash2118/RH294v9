@@ -1,0 +1,11 @@
+---
+- name: Register variable 
+  hosts: dev
+  tasks:
+     - name: systemctl restart sshd 
+       ansible.builtin.shell: systemctl restart sshd
+       register: var_info
+
+     - name: DIsplay 
+       ansible.builtin.debug:
+         var: var_info

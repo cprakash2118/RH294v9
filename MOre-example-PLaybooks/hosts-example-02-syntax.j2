@@ -1,0 +1,5 @@
+
+_IP Address   = {{ ansible_facts.default_ipv4.address }} 
+_HOstname     =  {{ ansible_facts.fqdn }}
+_BIOS Version = {{ ansible_facts.bios_version }}
+_Free Memory  = {{ ansible_facts.memfree_mb }}

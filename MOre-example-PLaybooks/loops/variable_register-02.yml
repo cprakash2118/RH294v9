@@ -1,0 +1,12 @@
+---
+- name: Register variable 
+  hosts: dev
+  tasks:
+     - name: systemctl status sshd 
+       ansible.builtin.shell: systemctl status rsyslog
+       ignore_errors: yes
+       register: var_info
+
+     - name: DIsplay 
+       ansible.builtin.debug:
+         var: var_info

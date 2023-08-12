@@ -1,0 +1,10 @@
+{# /etc/hosts line #}
+
+{% for x in groups['all'] %}
+
+
+{{ hostvars[x]['ansible_facts']['default_ipv4']['address'] }} {{ hostvars[x]['ansible_facts']['fqdn'] }} {{ hostvars[x]['ansible_facts']['hostname'] }}
+
+{% endfor %}
+
+
