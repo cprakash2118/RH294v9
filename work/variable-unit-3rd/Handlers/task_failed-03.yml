@@ -1,0 +1,30 @@
+---
+- name: Failed demo
+  hosts: prod 
+  tasks:
+   - name: Implement block/rescue and always.
+     block:
+       - name: INstall pkg
+         ansible.builtin.dnf:
+            name: bangalore 
+            state: present 
+         ignore_errors: yes
+
+       - name: Service restart
+         ansible.builtin.service:
+            name: btm 
+            state: restarted 
+         ignore_errors: yes
+     rescue:
+       - name: Rescue related changed.
+         ansible.builtin.debug:
+           msg: "Rescue changes on all db server"
+
+
+     always:
+       - name: always related changed.
+         ansible.builtin.debug:
+           msg: "always changes on all db server"
+
+
+...

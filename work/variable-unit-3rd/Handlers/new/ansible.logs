@@ -1,0 +1,423 @@
+2023-09-03 07:35:24,996 p=19773 u=student n=ansible | - Role apache was created successfully
+2023-09-03 11:45:46,691 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 11:45:47,794 p=21 u=root n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/new/roles/apache/vars/main.yml': line 7, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+          - mutt
+     - service_list:
+     ^ here
+
+2023-09-03 11:46:18,607 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 11:46:19,679 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/new/main-playbook.yml
+2023-09-03 11:46:40,476 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 11:46:41,703 p=21 u=root n=ansible | PLAY [Calling roles] ****************************************************************************************
+2023-09-03 11:46:41,722 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 11:46:43,292 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 11:46:43,297 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 11:46:43,331 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 11:46:43,334 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 11:46:43,351 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 11:46:44,894 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 11:46:44,906 p=21 u=root n=ansible | TASK [Pre-task] *********************************************************************************************
+2023-09-03 11:46:44,952 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:44,972 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:44,991 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:45,012 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:45,034 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:45,038 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "Pre-Task-01"
+}
+2023-09-03 11:46:45,065 p=21 u=root n=ansible | TASK [apache : INstall packages.] ***************************************************************************
+2023-09-03 11:46:45,194 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 11:46:45,207 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 11:46:46,247 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 11:46:46,278 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 11:46:46,344 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 11:46:46,346 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 11:46:46,357 p=21 u=root n=ansible | TASK [apache : Multiple services start and enable.] *********************************************************
+2023-09-03 11:46:46,516 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 11:46:46,517 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 11:46:46,555 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 11:46:46,557 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 11:46:47,313 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=sshd)
+2023-09-03 11:46:47,319 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 11:46:47,375 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=sshd)
+2023-09-03 11:46:47,383 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=sshd)
+2023-09-03 11:46:47,822 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 11:46:47,832 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=firewalld)
+2023-09-03 11:46:47,891 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=firewalld)
+2023-09-03 11:46:47,921 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=firewalld)
+2023-09-03 11:46:47,935 p=21 u=root n=ansible | TASK [apache : Deploy application - index.html] *************************************************************
+2023-09-03 11:46:48,042 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 11:46:48,075 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 11:46:48,911 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 11:46:48,916 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 11:46:48,927 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 11:46:48,939 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 11:46:48,949 p=21 u=root n=ansible | TASK [apache : Configration change on Apache/web server.] ***************************************************
+2023-09-03 11:46:49,059 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 11:46:49,070 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 11:46:49,835 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 11:46:49,840 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 11:46:49,858 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 11:46:49,861 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 11:46:49,932 p=21 u=root n=ansible | TASK [Task-01] **********************************************************************************************
+2023-09-03 11:46:49,984 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,010 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,057 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,110 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,118 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,164 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "Task-01"
+}
+2023-09-03 11:46:50,174 p=21 u=root n=ansible | TASK [Task-02] **********************************************************************************************
+2023-09-03 11:46:50,281 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,323 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,327 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,343 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,350 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,353 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "Task-02"
+}
+2023-09-03 11:46:50,375 p=21 u=root n=ansible | RUNNING HANDLER [apache : restart apache] *******************************************************************
+2023-09-03 11:46:50,974 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 11:46:50,975 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 11:46:51,064 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 11:46:51,073 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 11:46:51,092 p=21 u=root n=ansible | TASK [Post-Task-01] *****************************************************************************************
+2023-09-03 11:46:51,144 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,168 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,190 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,212 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,214 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,238 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "Post-Task-01"
+}
+2023-09-03 11:46:51,252 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 11:46:51,253 p=21 u=root n=ansible | servera.lab.example.com    : ok=10   changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 11:46:51,253 p=21 u=root n=ansible | serverb.lab.example.com    : ok=10   changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 11:46:51,253 p=21 u=root n=ansible | serverc.lab.example.com    : ok=10   changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 11:46:51,254 p=21 u=root n=ansible | serverd.lab.example.com    : ok=10   changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 11:46:51,254 p=21 u=root n=ansible | utility.lab.example.com    : ok=5    changed=0    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2023-09-03 11:46:51,254 p=21 u=root n=ansible | workstation.lab.example.com : ok=5    changed=0    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0   
+2023-09-03 07:52:18,078 p=21559 u=student n=ansible | # /usr/share/ansible/collections/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 07:52:18,079 p=21559 u=student n=ansible | redhat.rhel_system_roles 1.16.2 
+2023-09-03 11:59:18,548 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 11:59:19,583 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 11:59:19,624 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 11:59:21,122 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 11:59:21,125 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 11:59:21,145 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 11:59:21,203 p=21 u=root n=ansible | ERROR! the role 'redhat.rhel_system_roles.selinux' was not found in /home/student/work/variable-unit-3rd/Handlers/new/roles:/home/student/work/variable-unit-3rd/Handlers/new/roles:/home/student/work/variable-unit-3rd/Handlers/new
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/new/selinux_collection_call.yml': line 7, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        include_role:
+           name: redhat.rhel_system_roles.selinux
+                 ^ here
+
+2023-09-03 11:59:21,205 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 11:59:21,205 p=21 u=root n=ansible | servera.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 11:59:21,205 p=21 u=root n=ansible | serverb.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 07:59:35,935 p=22005 u=student n=ansible | # /usr/share/ansible/collections/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 07:59:35,935 p=22005 u=student n=ansible | redhat.rhel_system_roles 1.16.2 
+2023-09-03 12:00:45,691 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 12:00:46,829 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 12:00:46,872 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 12:00:48,258 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:00:48,298 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:00:48,318 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 12:00:48,369 p=21 u=root n=ansible | ERROR! the role 'redhat.rhel_system_roles.selinux' was not found in /home/student/work/variable-unit-3rd/Handlers/new/roles:/home/student/work/variable-unit-3rd/Handlers/new/roles:/home/student/work/variable-unit-3rd/Handlers/new
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/new/selinux_collection_call.yml': line 7, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        include_role:
+           name: redhat.rhel_system_roles.selinux
+                 ^ here
+
+2023-09-03 12:00:48,371 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 12:00:48,371 p=21 u=root n=ansible | servera.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 12:00:48,371 p=21 u=root n=ansible | serverb.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 12:01:10,771 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 12:01:11,923 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 12:01:11,968 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 12:01:13,401 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:01:13,430 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:01:13,457 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 12:01:13,511 p=21 u=root n=ansible | ERROR! the role 'redhat.rhel_system_roles.selinux' was not found in /home/student/work/variable-unit-3rd/Handlers/new/roles:/home/runner/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/student/work/variable-unit-3rd/Handlers/new
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/new/selinux_collection_call.yml': line 7, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        include_role:
+           name: redhat.rhel_system_roles.selinux
+                 ^ here
+
+2023-09-03 12:01:13,513 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 12:01:13,513 p=21 u=root n=ansible | servera.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 12:01:13,513 p=21 u=root n=ansible | serverb.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 08:01:34,103 p=22349 u=student n=ansible | # /usr/share/ansible/collections/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 08:01:34,104 p=22349 u=student n=ansible | redhat.rhel_system_roles 1.16.2 
+2023-09-03 12:02:08,396 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 12:02:09,517 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 12:02:09,559 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 12:02:10,999 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:02:11,024 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:02:11,045 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 12:02:11,096 p=21 u=root n=ansible | ERROR! the role 'redhat.rhel_system_roles.selinux' was not found in /home/student/work/variable-unit-3rd/Handlers/new/roles:/home/runner/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles:/home/student/work/variable-unit-3rd/Handlers/new
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/new/selinux_collection_call.yml': line 7, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+        include_role:
+           name: redhat.rhel_system_roles.selinux
+                 ^ here
+
+2023-09-03 12:02:11,099 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 12:02:11,099 p=21 u=root n=ansible | servera.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 12:02:11,099 p=21 u=root n=ansible | serverb.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 08:04:38,439 p=24652 u=student n=ansible | Starting galaxy collection install process
+2023-09-03 08:04:38,440 p=24652 u=student n=ansible | [WARNING]: The specified collections path '/home/student/work/variable-
+unit-3rd/Handlers/new/mycollection' is not part of the configured Ansible collections paths
+'/usr/share/ansible/collections/ansible_collections'. The installed collection won't be
+picked up in an Ansible run.
+
+2023-09-03 08:04:38,440 p=24652 u=student n=ansible | Process install dependency map
+2023-09-03 08:04:38,441 p=24652 u=student n=ansible | |
+2023-09-03 08:04:38,541 p=24652 u=student n=ansible | Starting collection install process
+2023-09-03 08:04:38,542 p=24652 u=student n=ansible | |
+2023-09-03 08:04:38,643 p=24652 u=student n=ansible | Installing 'redhat.rhel_system_roles:1.19.3' to '/home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections/redhat/rhel_system_roles'
+2023-09-03 08:04:38,643 p=24652 u=student n=ansible | /
+2023-09-03 08:04:38,744 p=24652 u=student n=ansible | -
+2023-09-03 08:04:38,844 p=24652 u=student n=ansible | \
+2023-09-03 08:04:38,945 p=24652 u=student n=ansible | |
+2023-09-03 08:04:39,045 p=24652 u=student n=ansible | /
+2023-09-03 08:04:39,145 p=24652 u=student n=ansible | -
+2023-09-03 08:04:39,246 p=24652 u=student n=ansible | \
+2023-09-03 08:04:39,347 p=24652 u=student n=ansible | |
+2023-09-03 08:04:39,447 p=24652 u=student n=ansible | /
+2023-09-03 08:04:39,548 p=24652 u=student n=ansible | -
+2023-09-03 08:04:39,648 p=24652 u=student n=ansible | redhat.rhel_system_roles:1.19.3 was installed successfully
+2023-09-03 08:05:10,203 p=24691 u=student n=ansible | # /home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 08:05:10,204 p=24691 u=student n=ansible | redhat.rhel_system_roles 1.19.3 
+2023-09-03 08:05:10,204 p=24691 u=student n=ansible | # /usr/share/ansible/collections/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 08:05:10,204 p=24691 u=student n=ansible | redhat.rhel_system_roles 1.16.2 
+2023-09-03 12:05:33,203 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}, "/home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections": {"redhat.rhel_system_roles": {"version": "1.19.3"}}}
+2023-09-03 12:05:34,281 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 12:05:34,322 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 12:05:35,770 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:35,825 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:35,852 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 12:05:35,937 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set ansible_facts required by role and install packages] ***
+2023-09-03 12:05:35,989 p=21 u=root n=ansible | included: /home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections/redhat/rhel_system_roles/roles/selinux/tasks/set_facts_packages.yml for servera.lab.example.com, serverb.lab.example.com
+2023-09-03 12:05:36,011 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Ensure ansible_facts used by role] ******************
+2023-09-03 12:05:36,544 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:36,573 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:36,590 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux python2 tools] **********************
+2023-09-03 12:05:36,617 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:36,627 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:36,642 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux python3 tools] **********************
+2023-09-03 12:05:37,711 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:37,879 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:37,892 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : refresh facts] **************************************
+2023-09-03 12:05:38,754 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:38,827 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:38,837 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux tool semanage] **********************
+2023-09-03 12:05:39,789 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:39,819 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:39,836 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set permanent SELinux state if enabled] *************
+2023-09-03 12:05:40,624 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:40,629 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 12:05:40,643 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set permanent SELinux state if disabled] ************
+2023-09-03 12:05:40,676 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:40,692 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:40,704 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set selinux_reboot_required] ************************
+2023-09-03 12:05:40,763 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:40,769 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:40,784 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Fail if reboot is required] *************************
+2023-09-03 12:05:40,806 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:40,822 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:40,832 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Warn if SELinux is disabled] ************************
+2023-09-03 12:05:40,860 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:40,871 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:40,889 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Drop all local modifications] ***********************
+2023-09-03 12:05:40,922 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:40,948 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:40,959 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux boolean local modifications] ******
+2023-09-03 12:05:40,998 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:41,019 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:41,033 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux file context local modifications] ***
+2023-09-03 12:05:41,073 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:41,085 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:41,101 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux port local modifications] *********
+2023-09-03 12:05:41,139 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:41,156 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:41,167 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux login local modifications] ********
+2023-09-03 12:05:41,194 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:41,223 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:41,234 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set SELinux booleans] *******************************
+2023-09-03 12:05:41,284 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set SELinux file contexts] **************************
+2023-09-03 12:05:41,329 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Restore SELinux labels on filesystem tree] **********
+2023-09-03 12:05:41,386 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Restore SELinux labels on filesystem tree in check mode] ***
+2023-09-03 12:05:41,439 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set an SELinux label on a port] *********************
+2023-09-03 12:05:41,488 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set linux user to SELinux user mapping] *************
+2023-09-03 12:05:41,546 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Get SELinux modules facts] **************************
+2023-09-03 12:05:42,402 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:05:42,456 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:05:42,475 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : include_tasks] **************************************
+2023-09-03 12:05:42,540 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:05:42,575 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:05:42,632 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 12:05:42,632 p=21 u=root n=ansible | servera.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=16   rescued=0    ignored=0   
+2023-09-03 12:05:42,632 p=21 u=root n=ansible | serverb.lab.example.com    : ok=9    changed=0    unreachable=0    failed=0    skipped=16   rescued=0    ignored=0   
+2023-09-03 12:06:31,248 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}, "/home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections": {"redhat.rhel_system_roles": {"version": "1.19.3"}}}
+2023-09-03 12:06:32,332 p=21 u=root n=ansible | PLAY [Using collection] **********************************************************************
+2023-09-03 12:06:32,373 p=21 u=root n=ansible | TASK [Gathering Facts] ***********************************************************************
+2023-09-03 12:06:33,850 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:33,853 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:33,880 p=21 u=root n=ansible | TASK [Ensure SELinux mode is Enforcing] ******************************************************
+2023-09-03 12:06:33,970 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set ansible_facts required by role and install packages] ***
+2023-09-03 12:06:34,024 p=21 u=root n=ansible | included: /home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections/redhat/rhel_system_roles/roles/selinux/tasks/set_facts_packages.yml for servera.lab.example.com, serverb.lab.example.com
+2023-09-03 12:06:34,043 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Ensure ansible_facts used by role] ******************
+2023-09-03 12:06:34,540 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:34,570 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:34,586 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux python2 tools] **********************
+2023-09-03 12:06:34,614 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:34,627 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:34,644 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux python3 tools] **********************
+2023-09-03 12:06:35,668 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:35,694 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:35,712 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : refresh facts] **************************************
+2023-09-03 12:06:36,532 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:36,580 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:36,595 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Install SELinux tool semanage] **********************
+2023-09-03 12:06:37,463 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:37,496 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:37,512 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set permanent SELinux state if enabled] *************
+2023-09-03 12:06:38,249 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:38,264 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 12:06:38,279 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set permanent SELinux state if disabled] ************
+2023-09-03 12:06:38,306 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,317 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,329 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set selinux_reboot_required] ************************
+2023-09-03 12:06:38,379 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:38,396 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:38,412 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Fail if reboot is required] *************************
+2023-09-03 12:06:38,434 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,447 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,458 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Warn if SELinux is disabled] ************************
+2023-09-03 12:06:38,485 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,493 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,509 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Drop all local modifications] ***********************
+2023-09-03 12:06:38,541 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,565 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,576 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux boolean local modifications] ******
+2023-09-03 12:06:38,607 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,624 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,636 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux file context local modifications] ***
+2023-09-03 12:06:38,669 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,690 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,701 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux port local modifications] *********
+2023-09-03 12:06:38,732 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,752 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,763 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Purge all SELinux login local modifications] ********
+2023-09-03 12:06:38,796 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:38,814 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:38,825 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set SELinux booleans] *******************************
+2023-09-03 12:06:38,872 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set SELinux file contexts] **************************
+2023-09-03 12:06:38,915 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Restore SELinux labels on filesystem tree] **********
+2023-09-03 12:06:38,958 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Restore SELinux labels on filesystem tree in check mode] ***
+2023-09-03 12:06:39,004 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set an SELinux label on a port] *********************
+2023-09-03 12:06:39,050 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Set linux user to SELinux user mapping] *************
+2023-09-03 12:06:39,098 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : Get SELinux modules facts] **************************
+2023-09-03 12:06:39,630 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 12:06:39,635 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 12:06:39,653 p=21 u=root n=ansible | TASK [redhat.rhel_system_roles.selinux : include_tasks] **************************************
+2023-09-03 12:06:39,689 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 12:06:39,711 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 12:06:39,767 p=21 u=root n=ansible | PLAY RECAP ***********************************************************************************
+2023-09-03 12:06:39,767 p=21 u=root n=ansible | servera.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=16   rescued=0    ignored=0   
+2023-09-03 12:06:39,767 p=21 u=root n=ansible | serverb.lab.example.com    : ok=9    changed=0    unreachable=0    failed=0    skipped=16   rescued=0    ignored=0   
+2023-09-03 08:07:49,743 p=25349 u=student n=ansible | # /home/student/work/variable-unit-3rd/Handlers/new/mycollection/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 08:07:49,743 p=25349 u=student n=ansible | redhat.rhel_system_roles 1.19.3 
+2023-09-03 08:07:49,744 p=25349 u=student n=ansible | # /usr/share/ansible/collections/ansible_collections
+Collection               Version
+------------------------ -------
+
+2023-09-03 08:07:49,744 p=25349 u=student n=ansible | redhat.rhel_system_roles 1.16.2 

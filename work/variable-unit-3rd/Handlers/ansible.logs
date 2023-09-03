@@ -1,0 +1,1193 @@
+2023-09-03 08:59:56,347 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 08:59:57,182 p=21 u=root n=ansible | [WARNING]: Error parsing collection metadata requires_ansible value from collection ansible.network: Invalid
+specifier: '*'
+
+2023-09-03 08:59:57,184 p=21 u=root n=ansible | [WARNING]: Error parsing collection metadata requires_ansible value from collection ansible.security:
+Invalid specifier: '*'
+
+2023-09-03 08:59:57,215 p=21 u=root n=ansible | [WARNING]: Collection redhat.insights does not support Ansible version 2.13.3
+
+2023-09-03 09:07:33,560 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:17:45,065 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:18:18,903 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:26:21,930 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:26:22,900 p=21 u=root n=ansible | [WARNING]: While constructing a mapping from /home/student/work/variable-unit-3rd/Handlers/handlers-
+example.yml, line 67, column 7, found a duplicate dict key (when). Using last defined value only.
+
+2023-09-03 09:26:22,900 p=21 u=root n=ansible | [WARNING]: While constructing a mapping from /home/student/work/variable-unit-3rd/Handlers/handlers-
+example.yml, line 67, column 7, found a duplicate dict key (register). Using last defined value only.
+
+2023-09-03 09:26:22,902 p=21 u=root n=ansible | ERROR! A malformed block was encountered while loading handlers
+
+The error appears to be in '/home/student/work/variable-unit-3rd/Handlers/handlers-example.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Handlers example
+  ^ here
+
+2023-09-03 09:26:59,758 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:27:00,770 p=21 u=root n=ansible | [WARNING]: While constructing a mapping from /home/student/work/variable-unit-3rd/Handlers/handlers-
+example.yml, line 67, column 7, found a duplicate dict key (when). Using last defined value only.
+
+2023-09-03 09:27:00,771 p=21 u=root n=ansible | [WARNING]: While constructing a mapping from /home/student/work/variable-unit-3rd/Handlers/handlers-
+example.yml, line 67, column 7, found a duplicate dict key (register). Using last defined value only.
+
+2023-09-03 09:27:00,806 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/handlers-example.yml
+2023-09-03 09:27:29,162 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:27:30,169 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/handlers-example.yml
+2023-09-03 09:27:46,349 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:27:47,376 p=21 u=root n=ansible | PLAY [Handlers example] *************************************************************************************
+2023-09-03 09:27:47,389 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 09:27:47,481 p=21 u=root n=ansible | fatal: [servere.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname servere.lab.example.com: Name or service not known", "unreachable": true}
+2023-09-03 09:27:48,988 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:27:49,030 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:27:49,037 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:27:49,053 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:27:49,080 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:27:50,432 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:27:50,453 p=21 u=root n=ansible | TASK [INstall packages.] ************************************************************************************
+2023-09-03 09:27:50,501 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:27:50,518 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:27:50,540 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:27:50,567 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:27:50,571 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:27:51,734 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:27:51,745 p=21 u=root n=ansible | TASK [Multiple services start and enable.] ******************************************************************
+2023-09-03 09:27:51,793 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:27:51,796 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:27:51,804 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:27:51,808 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:27:51,829 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:27:51,830 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:27:51,856 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:27:51,857 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:27:51,884 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:27:51,885 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:27:52,540 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:27:52,997 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:27:53,023 p=21 u=root n=ansible | TASK [Deploy application - index.html] **********************************************************************
+2023-09-03 09:27:53,069 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:27:53,088 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:27:53,106 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:27:53,127 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:27:53,142 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:27:53,543 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:27:53,555 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ************************************************************
+2023-09-03 09:27:53,602 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:27:53,626 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:27:53,649 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:27:53,666 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:27:53,679 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:27:53,932 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:27:53,942 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *****************************************************************
+2023-09-03 09:27:53,992 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:27:53,993 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:27:54,015 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:27:54,016 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:27:54,028 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:27:54,038 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:27:54,054 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:27:54,055 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:27:54,079 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:27:54,080 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:27:54,593 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=http)
+2023-09-03 09:27:55,034 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=https)
+2023-09-03 09:27:55,047 p=21 u=root n=ansible | TASK [DB related changed.] **********************************************************************************
+2023-09-03 09:27:55,079 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:27:55,116 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:27:55,139 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:27:55,160 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:27:55,165 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:27:55,173 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:27:55,183 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ****************************************************************************
+2023-09-03 09:27:55,668 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service httpd: host"}
+2023-09-03 09:27:55,669 p=21 u=root n=ansible | NO MORE HOSTS LEFT ******************************************************************************************
+2023-09-03 09:27:55,671 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 09:27:55,671 p=21 u=root n=ansible | servera.lab.example.com    : ok=6    changed=4    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:27:55,671 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:27:55,671 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:27:55,672 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:27:55,672 p=21 u=root n=ansible | servere.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 09:27:55,672 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:27:55,672 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:28:13,819 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:28:14,829 p=21 u=root n=ansible | PLAY [Handlers example] *************************************************************************************
+2023-09-03 09:28:14,842 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 09:28:16,264 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:28:16,268 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:28:16,270 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:28:16,274 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:28:16,278 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:28:17,624 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:28:17,645 p=21 u=root n=ansible | TASK [INstall packages.] ************************************************************************************
+2023-09-03 09:28:17,691 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:28:17,711 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:28:17,737 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:28:17,761 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:28:17,770 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:28:18,629 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:28:18,640 p=21 u=root n=ansible | TASK [Multiple services start and enable.] ******************************************************************
+2023-09-03 09:28:18,689 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:28:18,697 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:28:18,707 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:28:18,710 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:28:18,741 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:28:18,745 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:28:18,768 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:28:18,772 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:28:18,785 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:28:18,786 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:28:19,387 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:28:19,842 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:28:19,858 p=21 u=root n=ansible | TASK [Deploy application - index.html] **********************************************************************
+2023-09-03 09:28:19,916 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:28:19,935 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:28:19,957 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:28:19,983 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:28:19,991 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:28:20,392 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:28:20,403 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ************************************************************
+2023-09-03 09:28:20,450 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:28:20,470 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:28:20,486 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:28:20,509 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:28:20,518 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:28:20,755 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:28:20,766 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *****************************************************************
+2023-09-03 09:28:20,814 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:28:20,815 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:28:20,847 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:28:20,848 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:28:20,865 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:28:20,866 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:28:20,892 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:28:20,893 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:28:20,911 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:28:20,912 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:28:21,414 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=http)
+2023-09-03 09:28:21,901 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=https)
+2023-09-03 09:28:21,914 p=21 u=root n=ansible | TASK [DB related changed.] **********************************************************************************
+2023-09-03 09:28:21,947 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:28:21,987 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:28:22,011 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:28:22,038 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:28:22,039 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:28:22,047 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:28:22,057 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ****************************************************************************
+2023-09-03 09:28:22,618 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service httpd: host"}
+2023-09-03 09:28:22,619 p=21 u=root n=ansible | NO MORE HOSTS LEFT ******************************************************************************************
+2023-09-03 09:28:22,620 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 09:28:22,621 p=21 u=root n=ansible | servera.lab.example.com    : ok=6    changed=4    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:28:22,621 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:28:22,621 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:28:22,621 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:28:22,622 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:28:22,622 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:28:58,692 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:28:59,727 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:28:59,740 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:29:01,143 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:29:01,177 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:29:01,186 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:29:01,192 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:29:01,214 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:29:02,625 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:29:02,649 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:29:02,690 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:02,708 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:02,724 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:02,742 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:02,760 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:09,659 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:29:09,671 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:29:09,731 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:09,737 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:09,739 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:09,740 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:09,766 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:09,767 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:09,771 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:09,774 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:09,797 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:09,798 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:10,840 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:29:11,680 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:29:11,696 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:29:11,743 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:11,763 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:11,785 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:11,803 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:11,815 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:13,163 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:29:13,173 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:29:13,220 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:13,238 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:13,255 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:13,275 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:13,286 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:14,280 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:29:14,292 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:29:14,348 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:29:14,355 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:29:14,361 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:29:14,362 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:29:14,389 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:29:14,392 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:29:14,432 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:29:14,433 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:29:14,451 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:29:14,451 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:29:15,297 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=http)
+2023-09-03 09:29:16,070 p=21 u=root n=ansible | changed: [servera.lab.example.com] => (item=https)
+2023-09-03 09:29:16,082 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:29:16,116 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:29:16,155 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:16,176 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:29:16,198 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:16,199 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:16,208 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:16,218 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ************************************************************************************************
+2023-09-03 09:29:17,629 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | servera.lab.example.com    : ok=7    changed=5    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:17,642 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:41,621 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:29:42,719 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:29:42,732 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:29:44,280 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:29:44,283 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:29:44,323 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:29:44,355 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:29:44,392 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:29:45,864 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:29:45,888 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:29:45,927 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:45,945 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:45,962 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:45,978 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:45,986 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:47,027 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:29:47,039 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:29:47,111 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:47,114 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:47,139 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:47,142 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:47,166 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:47,169 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:47,175 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:47,176 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:47,199 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:29:47,201 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:29:47,939 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:29:48,454 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:29:48,472 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:29:48,534 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:48,561 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:48,584 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:48,609 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:48,627 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:49,425 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:29:49,435 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:29:49,522 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:29:49,543 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:49,565 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:49,567 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:49,590 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:50,117 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:29:50,129 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:29:50,198 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:29:50,203 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:29:50,213 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:29:50,222 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:29:50,259 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:29:50,263 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:29:50,290 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:29:50,294 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:29:50,303 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:29:50,315 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:29:50,852 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:29:51,357 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:29:51,369 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:29:51,402 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:29:51,443 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:29:51,468 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:29:51,494 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:29:51,495 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:29:51,503 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:29:51,531 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:29:51,531 p=21 u=root n=ansible | servera.lab.example.com    : ok=6    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:29:51,531 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:29:51,531 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:51,532 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:51,532 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:29:51,532 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:35:00,392 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:35:01,469 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/handlers-example.yml
+2023-09-03 09:35:07,520 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:35:08,581 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:35:08,594 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:35:10,042 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:35:10,045 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:35:10,059 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:35:10,063 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:35:10,067 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:35:11,498 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:35:11,518 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:35:11,555 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:35:11,587 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:35:11,605 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:35:11,606 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:35:11,612 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:35:12,581 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:35:12,593 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:35:12,639 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:35:12,640 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:35:12,657 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:35:12,658 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:35:12,687 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:35:12,698 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:35:12,699 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:35:12,706 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:35:12,726 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:35:12,727 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:35:13,352 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:35:13,797 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:35:13,810 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:35:13,863 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:35:13,880 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:35:13,898 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:35:13,900 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:35:13,910 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:35:14,635 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:35:14,647 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:35:14,703 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:35:14,720 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:35:14,742 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:35:14,760 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:35:14,774 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:35:15,391 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:35:15,401 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:35:15,447 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:35:15,453 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:35:15,461 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:35:15,466 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:35:15,492 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:35:15,494 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:35:15,507 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:35:15,510 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:35:15,533 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:35:15,534 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:35:16,012 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:35:16,442 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:35:16,453 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:35:16,486 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:35:16,523 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:35:16,538 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:35:16,557 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:35:16,558 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:35:16,565 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:35:16,575 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:35:16,614 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,630 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,648 p=21 u=root n=ansible | fatal: [serverc.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,666 p=21 u=root n=ansible | fatal: [serverd.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,671 p=21 u=root n=ansible | fatal: [utility.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,699 p=21 u=root n=ansible | fatal: [workstation.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:35:16,702 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ************************************************************************************************
+2023-09-03 09:35:16,704 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:35:16,704 p=21 u=root n=ansible | servera.lab.example.com    : ok=6    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:35:16,705 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=1    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:35:16,705 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:35:16,705 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:35:16,706 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:35:16,706 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:36:28,444 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:36:29,491 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:36:29,505 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:36:30,943 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:36:30,948 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:36:30,950 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:36:30,985 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:36:30,990 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:32,295 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:36:32,314 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:36:32,354 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:36:32,373 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:36:32,388 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:36:32,414 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:36:32,419 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:36:33,410 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:33,422 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:36:33,469 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:33,471 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:33,490 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:33,496 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:33,524 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:33,528 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:33,547 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:33,550 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:33,566 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:33,567 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:34,256 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:36:34,719 p=21 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2023-09-03 09:36:46,400 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:36:47,419 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:36:47,431 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:36:48,952 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:36:48,956 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:36:48,959 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:36:48,961 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:36:48,964 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:50,304 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:36:50,323 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:36:50,362 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:36:50,382 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:36:50,397 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:36:50,418 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:36:50,427 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:36:51,363 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:51,377 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:36:51,416 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:51,418 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:51,440 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:51,446 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:51,462 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:51,465 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:51,483 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:51,493 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:51,506 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:36:51,507 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:36:52,147 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:36:52,610 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:36:52,623 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:36:52,664 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:36:52,685 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:36:52,701 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:36:52,722 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:36:52,732 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:36:53,522 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:53,532 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:36:53,578 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:36:53,600 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:36:53,623 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:36:53,639 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:36:53,647 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:36:54,339 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:36:54,349 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:36:54,416 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:36:54,420 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:36:54,427 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:36:54,427 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:36:54,475 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:36:54,477 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:36:54,486 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:36:54,487 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:36:54,503 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:36:54,504 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:36:55,066 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:36:55,534 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:36:55,548 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:36:55,586 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:36:55,637 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:36:55,658 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:36:55,684 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:36:55,685 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:36:55,701 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:36:55,716 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:36:55,845 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,862 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,931 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,932 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,933 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,933 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:36:55,946 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ************************************************************************************************
+2023-09-03 09:36:56,488 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | servera.lab.example.com    : ok=8    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | serverb.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | serverc.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | serverd.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | utility.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:36:56,503 p=21 u=root n=ansible | workstation.lab.example.com : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:37:43,698 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:37:44,745 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:37:44,757 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:37:46,213 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:37:46,216 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:37:46,238 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:37:46,280 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:37:46,313 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:37:47,624 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:37:47,644 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:37:47,680 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:37:47,712 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:37:47,730 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:37:47,732 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:37:47,738 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:37:48,645 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:37:48,655 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:37:48,698 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:37:48,701 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:37:48,726 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:37:48,731 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:37:48,737 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:37:48,749 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:37:48,776 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:37:48,777 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:37:48,781 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:37:48,782 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:37:49,417 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:37:49,860 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:37:49,874 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:37:49,916 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:37:49,938 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:37:49,953 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:37:49,976 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:37:49,986 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:37:50,726 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:37:50,737 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:37:50,791 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:37:50,811 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:37:50,836 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:37:50,862 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:37:50,872 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:37:51,522 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:37:51,533 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:37:51,584 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:37:51,585 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:37:51,607 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:37:51,609 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:37:51,622 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:37:51,625 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:37:51,657 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:37:51,658 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:37:51,668 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:37:51,669 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:37:52,162 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:37:52,620 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:37:52,632 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:37:52,662 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:37:52,701 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:37:52,722 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:37:52,739 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:37:52,740 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:37:52,751 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:37:52,762 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:37:52,805 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,826 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,846 p=21 u=root n=ansible | fatal: [serverc.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,864 p=21 u=root n=ansible | fatal: [serverd.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,865 p=21 u=root n=ansible | fatal: [utility.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,888 p=21 u=root n=ansible | fatal: [workstation.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:37:52,889 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ************************************************************************************************
+2023-09-03 09:37:52,891 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:37:52,891 p=21 u=root n=ansible | servera.lab.example.com    : ok=6    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:37:52,891 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=1    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:37:52,891 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:37:52,891 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:37:52,892 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:37:52,892 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:13,334 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:38:14,389 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:38:14,402 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:38:15,851 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:38:15,855 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:38:15,858 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:15,880 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:38:15,909 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:38:17,320 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:38:17,346 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:38:17,393 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:17,412 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:17,434 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:17,458 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:17,468 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:18,417 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:18,427 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:38:18,475 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:18,476 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:18,502 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:18,504 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:18,516 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:18,523 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:18,538 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:18,539 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:18,560 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:18,561 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:19,223 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:38:19,692 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:38:19,706 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:38:19,757 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:19,778 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:19,798 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:19,818 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:19,832 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:20,672 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:20,684 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:38:20,729 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:20,766 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:20,787 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:20,790 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:20,797 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:21,284 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:21,296 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:38:21,358 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:38:21,360 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:38:21,368 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:38:21,371 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:38:21,403 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:38:21,408 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:38:21,429 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:38:21,430 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:38:21,450 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:38:21,450 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:38:21,951 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:38:22,408 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:38:22,419 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:38:22,475 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:38:22,495 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:22,520 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:38:22,544 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:22,546 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:22,555 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:22,573 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:38:22,622 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,643 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,662 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,684 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,752 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,799 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:22,829 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:38:22,829 p=21 u=root n=ansible | servera.lab.example.com    : ok=7    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:38:22,829 p=21 u=root n=ansible | serverb.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:38:22,830 p=21 u=root n=ansible | serverc.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:22,830 p=21 u=root n=ansible | serverd.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:22,830 p=21 u=root n=ansible | utility.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:22,830 p=21 u=root n=ansible | workstation.lab.example.com : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:36,337 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:38:37,433 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:38:37,447 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:38:38,868 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:38:38,873 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:38:38,876 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:38:38,897 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:38:38,943 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:40,231 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:38:40,251 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:38:40,289 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:40,323 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:40,341 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:40,342 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:40,349 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:41,429 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:41,439 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:38:41,488 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:41,491 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:41,501 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:41,501 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:41,535 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:41,540 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:41,556 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:41,568 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:41,580 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:38:41,581 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:38:42,248 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:38:42,740 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:38:42,752 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:38:42,795 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:42,811 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:42,827 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:42,845 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:42,852 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:43,687 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:43,697 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:38:43,747 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:38:43,770 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:43,793 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:43,814 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:43,826 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:44,324 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:38:44,334 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:38:44,384 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:38:44,386 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:38:44,410 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:38:44,414 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:38:44,434 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:38:44,436 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:38:44,444 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:38:44,444 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:38:44,465 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:38:44,466 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:38:44,977 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:38:45,424 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:38:45,438 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:38:45,470 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:38:45,510 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:38:45,527 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:38:45,545 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:38:45,546 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:38:45,561 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:38:45,571 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:38:45,617 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,680 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,710 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,736 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,753 p=21 u=root n=ansible | ok: [workstation.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,760 p=21 u=root n=ansible | ok: [utility.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:38:45,784 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | servera.lab.example.com    : ok=7    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | serverb.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | serverc.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | serverd.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | utility.lab.example.com    : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:38:45,785 p=21 u=root n=ansible | workstation.lab.example.com : ok=2    changed=0    unreachable=0    failed=0    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:39:48,757 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:39:49,865 p=21 u=root n=ansible | PLAY [Handlers example] *********************************************************************************************************
+2023-09-03 09:39:49,879 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:39:51,401 p=21 u=root n=ansible | ok: [utility.lab.example.com]
+2023-09-03 09:39:51,406 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:39:51,444 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:39:51,450 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 09:39:51,471 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 09:39:52,838 p=21 u=root n=ansible | ok: [workstation.lab.example.com]
+2023-09-03 09:39:52,859 p=21 u=root n=ansible | TASK [INstall packages.] ********************************************************************************************************
+2023-09-03 09:39:52,899 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:39:52,918 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:39:52,936 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:39:52,955 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:39:52,973 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:39:54,003 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:39:54,015 p=21 u=root n=ansible | TASK [Multiple services start and enable.] **************************************************************************************
+2023-09-03 09:39:54,056 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=sshd) 
+2023-09-03 09:39:54,062 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=firewalld) 
+2023-09-03 09:39:54,087 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=sshd) 
+2023-09-03 09:39:54,090 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=firewalld) 
+2023-09-03 09:39:54,111 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=sshd) 
+2023-09-03 09:39:54,114 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=firewalld) 
+2023-09-03 09:39:54,122 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=sshd) 
+2023-09-03 09:39:54,123 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=firewalld) 
+2023-09-03 09:39:54,145 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=sshd) 
+2023-09-03 09:39:54,146 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=firewalld) 
+2023-09-03 09:39:54,842 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 09:39:55,344 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 09:39:55,358 p=21 u=root n=ansible | TASK [Deploy application - index.html] ******************************************************************************************
+2023-09-03 09:39:55,400 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:39:55,423 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:39:55,440 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:39:55,462 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:39:55,471 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:39:56,300 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:39:56,314 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ********************************************************************************
+2023-09-03 09:39:56,358 p=21 u=root n=ansible | skipping: [serverb.lab.example.com]
+2023-09-03 09:39:56,376 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:39:56,393 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:39:56,416 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:39:56,422 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:39:57,199 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 09:39:57,210 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *************************************************************************************
+2023-09-03 09:39:57,261 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=http) 
+2023-09-03 09:39:57,271 p=21 u=root n=ansible | skipping: [serverb.lab.example.com] => (item=https) 
+2023-09-03 09:39:57,278 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=http) 
+2023-09-03 09:39:57,278 p=21 u=root n=ansible | skipping: [serverc.lab.example.com] => (item=https) 
+2023-09-03 09:39:57,305 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=http) 
+2023-09-03 09:39:57,307 p=21 u=root n=ansible | skipping: [serverd.lab.example.com] => (item=https) 
+2023-09-03 09:39:57,333 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=http) 
+2023-09-03 09:39:57,336 p=21 u=root n=ansible | skipping: [utility.lab.example.com] => (item=https) 
+2023-09-03 09:39:57,356 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=http) 
+2023-09-03 09:39:57,362 p=21 u=root n=ansible | skipping: [workstation.lab.example.com] => (item=https) 
+2023-09-03 09:39:57,895 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 09:39:58,404 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 09:39:58,418 p=21 u=root n=ansible | TASK [DB related changed.] ******************************************************************************************************
+2023-09-03 09:39:58,455 p=21 u=root n=ansible | skipping: [servera.lab.example.com]
+2023-09-03 09:39:58,504 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:39:58,525 p=21 u=root n=ansible | skipping: [serverc.lab.example.com]
+2023-09-03 09:39:58,551 p=21 u=root n=ansible | skipping: [serverd.lab.example.com]
+2023-09-03 09:39:58,552 p=21 u=root n=ansible | skipping: [utility.lab.example.com]
+2023-09-03 09:39:58,563 p=21 u=root n=ansible | skipping: [workstation.lab.example.com]
+2023-09-03 09:39:58,580 p=21 u=root n=ansible | TASK [Making my task fail.] *****************************************************************************************************
+2023-09-03 09:39:58,681 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,713 p=21 u=root n=ansible | fatal: [serverd.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,715 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,734 p=21 u=root n=ansible | fatal: [serverc.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,739 p=21 u=root n=ansible | fatal: [utility.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,741 p=21 u=root n=ansible | fatal: [workstation.lab.example.com]: FAILED! => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 09:39:58,742 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ************************************************************************************************
+2023-09-03 09:39:59,293 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:39:59,295 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:39:59,296 p=21 u=root n=ansible | servera.lab.example.com    : ok=7    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2023-09-03 09:39:59,296 p=21 u=root n=ansible | serverb.lab.example.com    : ok=2    changed=0    unreachable=0    failed=1    skipped=5    rescued=0    ignored=0   
+2023-09-03 09:39:59,296 p=21 u=root n=ansible | serverc.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:39:59,297 p=21 u=root n=ansible | serverd.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:39:59,297 p=21 u=root n=ansible | utility.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:39:59,297 p=21 u=root n=ansible | workstation.lab.example.com : ok=1    changed=0    unreachable=0    failed=1    skipped=6    rescued=0    ignored=0   
+2023-09-03 09:44:40,822 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:44:41,870 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/task_failed.yml
+2023-09-03 09:45:07,084 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:45:08,195 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/task_failed.yml
+2023-09-03 09:45:13,264 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:45:14,371 p=21 u=root n=ansible | PLAY [Failed demo] ******************************************************************************************
+2023-09-03 09:45:14,385 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 09:45:15,802 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:45:15,821 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:45:15,847 p=21 u=root n=ansible | TASK [INstall pkg] ******************************************************************************************
+2023-09-03 09:45:16,896 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:45:17,050 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:45:17,052 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 09:45:17,052 p=21 u=root n=ansible | servera.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-09-03 09:45:17,053 p=21 u=root n=ansible | serverb.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-09-03 09:45:34,696 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:45:35,771 p=21 u=root n=ansible | PLAY [Failed demo] ******************************************************************************************
+2023-09-03 09:45:35,784 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 09:45:37,234 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:45:37,292 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:45:37,311 p=21 u=root n=ansible | TASK [INstall pkg] ******************************************************************************************
+2023-09-03 09:45:38,321 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:45:38,322 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:45:38,387 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:45:38,387 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:45:38,397 p=21 u=root n=ansible | TASK [DB related changed.] **********************************************************************************
+2023-09-03 09:45:38,420 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:45:38,440 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 09:45:38,464 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 09:45:38,464 p=21 u=root n=ansible | servera.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2023-09-03 09:45:38,464 p=21 u=root n=ansible | serverb.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=1   
+2023-09-03 09:51:26,059 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:51:27,211 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/task_failed-02.yml
+2023-09-03 09:51:32,496 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:51:33,725 p=21 u=root n=ansible | PLAY [Failed demo] ******************************************************************************************
+2023-09-03 09:51:33,740 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 09:51:35,190 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:51:35,231 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:51:35,252 p=21 u=root n=ansible | TASK [INstall pkg] ******************************************************************************************
+2023-09-03 09:51:36,289 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:51:36,308 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:51:36,325 p=21 u=root n=ansible | TASK [Rescue related changed.] ******************************************************************************
+2023-09-03 09:51:36,361 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Rescue changes on all db server"
+}
+2023-09-03 09:51:36,372 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Rescue changes on all db server"
+}
+2023-09-03 09:51:36,383 p=21 u=root n=ansible | TASK [always related changed.] ******************************************************************************
+2023-09-03 09:51:36,414 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:51:36,436 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:51:36,462 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 09:51:36,463 p=21 u=root n=ansible | servera.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0   
+2023-09-03 09:51:36,463 p=21 u=root n=ansible | serverb.lab.example.com    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=0   
+2023-09-03 09:52:12,422 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:52:13,535 p=21 u=root n=ansible | PLAY [Failed demo] **************************************************************************************************************
+2023-09-03 09:52:13,550 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:52:15,043 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:52:15,073 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:52:15,102 p=21 u=root n=ansible | TASK [INstall pkg] **************************************************************************************************************
+2023-09-03 09:52:16,187 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:52:16,188 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:52:16,235 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:52:16,235 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:52:16,246 p=21 u=root n=ansible | TASK [Service restart] **********************************************************************************************************
+2023-09-03 09:52:16,984 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service btm: host"}
+2023-09-03 09:52:17,014 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service btm: host"}
+2023-09-03 09:52:17,029 p=21 u=root n=ansible | TASK [Rescue related changed.] **************************************************************************************************
+2023-09-03 09:52:17,069 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "Rescue changes on all db server"
+}
+2023-09-03 09:52:17,086 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "Rescue changes on all db server"
+}
+2023-09-03 09:52:17,097 p=21 u=root n=ansible | TASK [always related changed.] **************************************************************************************************
+2023-09-03 09:52:17,135 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:52:17,148 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:52:17,169 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:52:17,169 p=21 u=root n=ansible | servera.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=1   
+2023-09-03 09:52:17,169 p=21 u=root n=ansible | serverb.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=1    ignored=1   
+2023-09-03 09:53:16,542 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 09:53:17,645 p=21 u=root n=ansible | PLAY [Failed demo] **************************************************************************************************************
+2023-09-03 09:53:17,659 p=21 u=root n=ansible | TASK [Gathering Facts] **********************************************************************************************************
+2023-09-03 09:53:19,063 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 09:53:19,070 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 09:53:19,101 p=21 u=root n=ansible | TASK [INstall pkg] **************************************************************************************************************
+2023-09-03 09:53:20,127 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:53:20,127 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:53:20,128 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "failures": ["No package bangalore available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2023-09-03 09:53:20,128 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:53:20,139 p=21 u=root n=ansible | TASK [Service restart] **********************************************************************************************************
+2023-09-03 09:53:20,877 p=21 u=root n=ansible | fatal: [servera.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service btm: host"}
+2023-09-03 09:53:20,877 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:53:20,881 p=21 u=root n=ansible | fatal: [serverb.lab.example.com]: FAILED! => {"changed": false, "msg": "Could not find the requested service btm: host"}
+2023-09-03 09:53:20,881 p=21 u=root n=ansible | ...ignoring
+2023-09-03 09:53:20,892 p=21 u=root n=ansible | TASK [always related changed.] **************************************************************************************************
+2023-09-03 09:53:20,924 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:53:20,951 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "always changes on all db server"
+}
+2023-09-03 09:53:20,970 p=21 u=root n=ansible | PLAY RECAP **********************************************************************************************************************
+2023-09-03 09:53:20,971 p=21 u=root n=ansible | servera.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=2   
+2023-09-03 09:53:20,971 p=21 u=root n=ansible | serverb.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=2   
+2023-09-03 10:38:21,385 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 10:38:22,495 p=21 u=root n=ansible | playbook: /home/student/work/variable-unit-3rd/Handlers/web-server-deployment.yml
+2023-09-03 10:38:27,871 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 10:38:28,943 p=21 u=root n=ansible | PLAY [Handlers example] *************************************************************************************
+2023-09-03 10:38:28,957 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 10:38:30,418 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 10:38:30,423 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 10:38:30,462 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:38:30,495 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 10:38:30,519 p=21 u=root n=ansible | TASK [INstall packages.] ************************************************************************************
+2023-09-03 10:38:31,612 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:38:35,271 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 10:38:37,615 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 10:38:37,726 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 10:38:37,736 p=21 u=root n=ansible | TASK [Multiple services start and enable.] ******************************************************************
+2023-09-03 10:38:38,535 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 10:38:38,554 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=sshd)
+2023-09-03 10:38:38,909 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=sshd)
+2023-09-03 10:38:38,994 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=sshd)
+2023-09-03 10:38:39,043 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 10:38:39,058 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=firewalld)
+2023-09-03 10:38:39,822 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=firewalld)
+2023-09-03 10:38:39,996 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=firewalld)
+2023-09-03 10:38:40,012 p=21 u=root n=ansible | TASK [Deploy application - index.html] **********************************************************************
+2023-09-03 10:38:40,991 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 10:38:40,996 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 10:38:41,325 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 10:38:41,405 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 10:38:41,416 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ************************************************************
+2023-09-03 10:38:42,150 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 10:38:42,164 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 10:38:42,662 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 10:38:42,767 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 10:38:42,777 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *****************************************************************
+2023-09-03 10:38:43,488 p=21 u=root n=ansible | changed: [serverb.lab.example.com] => (item=http)
+2023-09-03 10:38:43,499 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 10:38:43,867 p=21 u=root n=ansible | changed: [serverc.lab.example.com] => (item=http)
+2023-09-03 10:38:43,976 p=21 u=root n=ansible | changed: [serverd.lab.example.com] => (item=http)
+2023-09-03 10:38:43,982 p=21 u=root n=ansible | changed: [serverb.lab.example.com] => (item=https)
+2023-09-03 10:38:44,045 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 10:38:44,700 p=21 u=root n=ansible | changed: [serverc.lab.example.com] => (item=https)
+2023-09-03 10:38:44,855 p=21 u=root n=ansible | changed: [serverd.lab.example.com] => (item=https)
+2023-09-03 10:38:44,868 p=21 u=root n=ansible | TASK [DB related changed.] **********************************************************************************
+2023-09-03 10:38:44,916 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:38:44,939 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:38:44,942 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:38:44,964 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:38:44,975 p=21 u=root n=ansible | TASK [Making my task fail.] *********************************************************************************
+2023-09-03 10:38:45,027 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:38:45,051 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:38:45,055 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:38:45,071 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:38:45,084 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ****************************************************************************
+2023-09-03 10:38:45,628 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:38:45,967 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 10:38:46,610 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 10:38:46,759 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 10:38:46,773 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 10:38:46,773 p=21 u=root n=ansible | servera.lab.example.com    : ok=9    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:38:46,773 p=21 u=root n=ansible | serverb.lab.example.com    : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:38:46,773 p=21 u=root n=ansible | serverc.lab.example.com    : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:38:46,774 p=21 u=root n=ansible | serverd.lab.example.com    : ok=9    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:41:05,224 p=16 u=root n=ansible | {"/usr/share/ansible/collections/ansible_collections": {"amazon.aws": {"version": "3.2.0"}, "ansible.controller": {"version": "4.2.1"}, "ansible.netcommon": {"version": "3.0.0"}, "ansible.network": {"version": "1.2.0"}, "ansible.posix": {"version": "1.3.0"}, "ansible.security": {"version": "1.0.0"}, "ansible.utils": {"version": "2.6.1"}, "ansible.windows": {"version": "1.9.0"}, "ansible.yang": {"version": "1.0.0"}, "arista.eos": {"version": "5.0.0"}, "cisco.asa": {"version": "3.0.0"}, "cisco.ios": {"version": "3.0.0"}, "cisco.iosxr": {"version": "3.0.0"}, "cisco.nxos": {"version": "3.0.0"}, "cloud.common": {"version": "2.1.1"}, "frr.frr": {"version": "2.0.0"}, "ibm.qradar": {"version": "2.0.0"}, "junipernetworks.junos": {"version": "3.0.0"}, "kubernetes.core": {"version": "2.2.3"}, "openvswitch.openvswitch": {"version": "2.1.0"}, "redhat.insights": {"version": "1.0.7"}, "redhat.openshift": {"version": "2.1.0"}, "redhat.rhv": {"version": "1.6.5"}, "redhat.satellite": {"version": "3.3.0"}, "servicenow.itsm": {"version": "1.3.3"}, "splunk.es": {"version": "2.0.0"}, "trendmicro.deepsec": {"version": "2.0.0"}, "vmware.vmware_rest": {"version": "2.1.5"}, "vyos.vyos": {"version": "3.0.0"}}}
+2023-09-03 10:41:06,304 p=21 u=root n=ansible | PLAY [Handlers example] *************************************************************************************
+2023-09-03 10:41:06,318 p=21 u=root n=ansible | TASK [Gathering Facts] **************************************************************************************
+2023-09-03 10:41:07,770 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:41:07,773 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 10:41:07,815 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 10:41:07,839 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 10:41:07,861 p=21 u=root n=ansible | TASK [INstall packages.] ************************************************************************************
+2023-09-03 10:41:08,931 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:41:08,950 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 10:41:08,990 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 10:41:09,028 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 10:41:09,039 p=21 u=root n=ansible | TASK [Multiple services start and enable.] ******************************************************************
+2023-09-03 10:41:09,849 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=sshd)
+2023-09-03 10:41:09,859 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=sshd)
+2023-09-03 10:41:09,867 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=sshd)
+2023-09-03 10:41:09,868 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=sshd)
+2023-09-03 10:41:10,337 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=firewalld)
+2023-09-03 10:41:10,353 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=firewalld)
+2023-09-03 10:41:10,367 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=firewalld)
+2023-09-03 10:41:10,377 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=firewalld)
+2023-09-03 10:41:10,391 p=21 u=root n=ansible | TASK [Deploy application - index.html] **********************************************************************
+2023-09-03 10:41:11,319 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:41:11,321 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 10:41:11,331 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 10:41:11,341 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 10:41:11,352 p=21 u=root n=ansible | TASK [Configration change on Apache/web server.] ************************************************************
+2023-09-03 10:41:12,179 p=21 u=root n=ansible | changed: [serverc.lab.example.com]
+2023-09-03 10:41:12,180 p=21 u=root n=ansible | changed: [servera.lab.example.com]
+2023-09-03 10:41:12,187 p=21 u=root n=ansible | changed: [serverd.lab.example.com]
+2023-09-03 10:41:12,192 p=21 u=root n=ansible | changed: [serverb.lab.example.com]
+2023-09-03 10:41:12,208 p=21 u=root n=ansible | TASK [Adding firewalld rule - http & https] *****************************************************************
+2023-09-03 10:41:12,869 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=http)
+2023-09-03 10:41:12,880 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=http)
+2023-09-03 10:41:12,898 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=http)
+2023-09-03 10:41:12,916 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=http)
+2023-09-03 10:41:13,347 p=21 u=root n=ansible | ok: [servera.lab.example.com] => (item=https)
+2023-09-03 10:41:13,376 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => (item=https)
+2023-09-03 10:41:13,425 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => (item=https)
+2023-09-03 10:41:13,444 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => (item=https)
+2023-09-03 10:41:13,457 p=21 u=root n=ansible | TASK [DB related changed.] **********************************************************************************
+2023-09-03 10:41:13,549 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:41:13,550 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:41:13,561 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:41:13,576 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server"
+}
+2023-09-03 10:41:13,586 p=21 u=root n=ansible | TASK [Making my task fail.] *********************************************************************************
+2023-09-03 10:41:13,633 p=21 u=root n=ansible | ok: [servera.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:41:13,650 p=21 u=root n=ansible | ok: [serverb.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:41:13,653 p=21 u=root n=ansible | ok: [serverc.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:41:13,674 p=21 u=root n=ansible | ok: [serverd.lab.example.com] => {
+    "msg": "DB changes on all db server-02"
+}
+2023-09-03 10:41:13,684 p=21 u=root n=ansible | RUNNING HANDLER [restart apache] ****************************************************************************
+2023-09-03 10:41:14,202 p=21 u=root n=ansible | ok: [serverc.lab.example.com]
+2023-09-03 10:41:14,225 p=21 u=root n=ansible | ok: [servera.lab.example.com]
+2023-09-03 10:41:14,255 p=21 u=root n=ansible | ok: [serverd.lab.example.com]
+2023-09-03 10:41:14,295 p=21 u=root n=ansible | ok: [serverb.lab.example.com]
+2023-09-03 10:41:14,306 p=21 u=root n=ansible | PLAY RECAP **************************************************************************************************
+2023-09-03 10:41:14,306 p=21 u=root n=ansible | servera.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:41:14,306 p=21 u=root n=ansible | serverb.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:41:14,306 p=21 u=root n=ansible | serverc.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-09-03 10:41:14,306 p=21 u=root n=ansible | serverd.lab.example.com    : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

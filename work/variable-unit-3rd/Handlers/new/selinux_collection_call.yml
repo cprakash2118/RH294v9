@@ -1,0 +1,10 @@
+---
+- name: Using collection 
+  hosts: prod 
+  tasks:
+      - name: Ensure SELinux mode is Enforcing
+        include_role:
+           name: redhat.rhel_system_roles.selinux
+        vars:
+            selinux_state: enforcing
+            selinux_policy: targeted

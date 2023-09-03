@@ -1,0 +1,14 @@
+---
+- name: Failed demo
+  hosts: prod 
+  tasks:
+    - name: INstall pkg
+      ansible.builtin.dnf:
+         name: bangalore 
+         state: present 
+      ignore_errors: yes
+     
+    - name: DB related changed.
+      ansible.builtin.debug:
+         msg: "DB changes on all db server"
+...

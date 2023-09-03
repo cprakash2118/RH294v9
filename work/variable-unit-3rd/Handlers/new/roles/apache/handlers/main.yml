@@ -1,0 +1,8 @@
+---
+# handlers file for apache
+   - name: restart apache
+     ansible.builtin.service:
+         name: httpd
+         state: started
+         enabled: true
+     when: inventory_hostname in groups['web']

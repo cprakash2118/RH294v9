@@ -1,0 +1,48 @@
+2023-08-26 08:13:34,000 p=6607 u=student n=ansible | servera.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:13:34,002 p=6607 u=student n=ansible | serverb.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:14:17,491 p=6652 u=student n=ansible | servera.lab.example.com | CHANGED | rc=0 >>
+ 08:14:17 up  2:54,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:14:17,512 p=6652 u=student n=ansible | serverb.lab.example.com | CHANGED | rc=0 >>
+ 08:14:17 up  2:54,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:15:16,850 p=6729 u=student n=ansible | servera.lab.example.com | CHANGED | rc=0 >>
+ 08:15:16 up  2:55,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:15:16,856 p=6729 u=student n=ansible | serverb.lab.example.com | CHANGED | rc=0 >>
+ 08:15:16 up  2:55,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:16:08,002 p=6769 u=student n=ansible | serverb.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:16:08,003 p=6769 u=student n=ansible | servera.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:16:21,253 p=6807 u=student n=ansible | servera.lab.example.com | CHANGED | rc=0 >>
+ 08:16:21 up  2:56,  1 user,  load average: 0.08, 0.02, 0.01
+
+2023-08-26 08:16:21,255 p=6807 u=student n=ansible | serverb.lab.example.com | CHANGED | rc=0 >>
+ 08:16:21 up  2:56,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:17:06,311 p=6847 u=student n=ansible | serverb.lab.example.com | CHANGED | rc=0 >>
+ 08:17:06 up  2:56,  1 user,  load average: 0.00, 0.00, 0.00
+
+2023-08-26 08:17:06,314 p=6847 u=student n=ansible | servera.lab.example.com | CHANGED | rc=0 >>
+ 08:17:06 up  2:56,  1 user,  load average: 0.12, 0.03, 0.01
+
+2023-08-26 08:17:20,067 p=6886 u=student n=ansible | servera.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:17:20,067 p=6886 u=student n=ansible | serverb.lab.example.com | FAILED | rc=-1 >>
+Missing sudo password
+
+2023-08-26 08:17:36,739 p=6921 u=student n=ansible | servera.lab.example.com | CHANGED | rc=0 >>
+ 08:17:36 up  2:57,  1 user,  load average: 0.39, 0.09, 0.03
+
+2023-08-26 08:17:36,744 p=6921 u=student n=ansible | serverb.lab.example.com | CHANGED | rc=0 >>
+ 08:17:36 up  2:57,  1 user,  load average: 0.00, 0.00, 0.00
+

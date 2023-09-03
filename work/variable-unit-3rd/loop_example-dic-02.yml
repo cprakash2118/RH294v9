@@ -1,0 +1,30 @@
+---
+- name: User & Group implementation.
+  hosts: dev
+  vars:
+     - group_list:
+          - unixadm 
+          - dbadm 
+          - app01 
+          - sregrp 
+     - user_details:
+          - {name: user1 , p_grp: unixadm , uid: 12345}
+          - {name: user2 , p_grp: dbadm , uid: 12346}
+          - {name: user3 , p_grp: app01 , uid: 12347}
+          - {name: user4 , p_grp: sregrp , uid: 12348}
+         
+  tasks:
+    - name: Group Creation
+      ansible.builtin.group: 
+         name: "{{ item }}"
+         state: present 
+      loop: "{{ group_list }}"
+
+    - name: User Creation.
+      ansible.builtin.user:
+         name: "{{ item.name }}"
+         group: "{{ item.p_grp}}"
+         uid: "{{ item.uid}}"
+         password: "{{ 'redhat' | password_hash('sha512') }}"
+      loop: "{{ user_details }}"
+

@@ -1,0 +1,30 @@
+---
+# tasks file for apache
+- name: INstall packages.
+  ansible.builtin.yum:
+     name: "{{ pkg_list }}"
+     state: present 
+  when: inventory_hostname in groups['web']
+
+- name: Multiple services start and enable.
+  ansible.builtin.service:
+     name: "{{ item }}"
+     state: started
+     enabled: true 
+  loop: "{{ service_list }}" 
+  when: inventory_hostname in groups['web']
+
+- name: Deploy application - index.html 
+  ansible.builtin.template:
+    src: index.html.j2
+    dest: /var/www/html/index.html 
+  when: inventory_hostname in groups['web']
+
+
+- name: Configration change on Apache/web server.
+  ansible.builtin.template:
+    src: httpd-configration-file.conf.j2
+    dest: /etc/httpd/conf.d/httpd-myconf.conf
+  when: inventory_hostname in groups['web']
+  notify:
+      - restart apache 

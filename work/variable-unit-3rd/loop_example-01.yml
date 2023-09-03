@@ -1,0 +1,18 @@
+---
+- name: Restart multiple services.
+  hosts: web 
+  tasks:
+    - name: Restart multiple service.
+      ansible.builtin.service:
+          name: "{{ item }}"
+          state: restarted 
+      register: loop_outcome 
+      loop: 
+          - sshd 
+          - httpd
+          - rsyslog 
+          - crond 
+
+    - name: DIsplay all values.
+      ansible.builtin.debug:
+         var: loop_outcome

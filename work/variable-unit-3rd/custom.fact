@@ -1,0 +1,12 @@
+[general]
+package = httpd
+service = httpd
+state = started
+enabled = true
+
+
+[cluster-01]
+booking = 172.168.1.20/24
+cluster = Kubernetes 
+platform = openshift
+

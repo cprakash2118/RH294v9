@@ -1,0 +1,22 @@
+---
+- name: Calling roles 
+  hosts: all 
+  pre_tasks:
+     - name: Pre-task
+       ansible.builtin.debug:
+          msg: "Pre-Task-01"
+  roles:
+     - apache 
+  tasks:
+     - name: Task-01
+       ansible.builtin.debug:
+          msg: "Task-01"
+     - name: Task-02
+       ansible.builtin.debug:
+          msg: "Task-02"
+  post_tasks:
+     - name: Post-Task-01
+       ansible.builtin.debug:
+          msg: "Post-Task-01"
+     
+...

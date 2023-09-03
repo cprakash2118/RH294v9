@@ -1,0 +1,10 @@
+---
+# vars file for apache
+    pkg_list:
+          - httpd
+          - firewalld
+          - mutt
+    service_list:
+          - sshd
+          - firewalld
+

@@ -1,0 +1,19 @@
+---
+- name: Register example 
+  hosts: web 
+  tasks:
+    - name: Check STtaus  sshd 
+      ansible.builtin.shell: "systemctl status sshd "
+      register: sshd_output 
+
+    - name: Display 
+      ansible.builtin.debug:
+         var: sshd_output
+
+    - name: Display-01
+      ansible.builtin.debug:
+         msg: "The value of RC - Return Code is - {{sshd_output.rc }}"
+
+    - name: Display-02
+      ansible.builtin.debug:
+         msg: "The value of STart time is - {{sshd_output.start }}"

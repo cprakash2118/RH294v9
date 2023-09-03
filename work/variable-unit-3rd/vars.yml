@@ -1,0 +1,5 @@
+apache_pkg: httpd 
+apache_svc: httpd 
+firewall_pkg: firewalld 
+firewall_svc: firewalld 
+firewall_rules: http 

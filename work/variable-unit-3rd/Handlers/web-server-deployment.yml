@@ -1,0 +1,66 @@
+---
+- name: Handlers example 
+  hosts: web 
+  force_handlers: yes
+  vars:
+     - pkg_list:
+          - httpd 
+          - firewalld 
+          - mutt 
+     - service_list:     
+          - sshd 
+          - firewalld 
+
+  tasks:
+    - name: INstall packages.
+      ansible.builtin.yum:
+         name: "{{ pkg_list }}"
+         state: present 
+
+    - name: Multiple services start and enable.
+      ansible.builtin.service:
+         name: "{{ item }}"
+         state: started
+         enabled: true 
+      loop: "{{ service_list }}" 
+
+    - name: Deploy application - index.html 
+      ansible.builtin.template:
+        src: index.html.j2
+        dest: /var/www/html/index.html 
+
+    - name: Configration change on Apache/web server.
+      ansible.builtin.template:
+        src: httpd-configration-file.conf.j2
+        dest: /etc/httpd/conf.d/httpd-myconf.conf
+      notify:
+         - restart apache 
+
+    - name: Adding firewalld rule - http & https 
+      vars:
+        - rules:
+           - http
+           - https
+      ansible.posix.firewalld:
+        service: "{{ item }}"
+        immediate: yes
+        permanent: yes
+        state: enabled
+      loop: "{{ rules }}"
+
+    - name: DB related changed.
+      ansible.builtin.debug:
+         msg: "DB changes on all db server"
+
+    - name: Making my task fail.
+      ansible.builtin.debug:
+         msg: "DB changes on all db server-02"
+      #failed_when: true 
+       
+  handlers:
+    - name: restart apache
+      ansible.builtin.service:
+         name: httpd
+         state: started
+         enabled: true 
+...

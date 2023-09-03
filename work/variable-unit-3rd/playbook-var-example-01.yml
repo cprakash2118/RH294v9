@@ -1,0 +1,44 @@
+---
+- name: Play-01, Deploy apache.
+  hosts: web
+  vars:
+    - apache_pkg: httpd 
+    - apache_svc: httpd 
+    - firewall_pkg: firewalld 
+    - firewall_svc: firewalld 
+    - firewall_rules: http 
+  tasks:
+    - name: Install apache package {{ apache_pkg }} on prod servers.
+      ansible.builtin.yum: 
+         name: "{{ apache_pkg }}"
+         state: present 
+
+    - name: Start and enable apache service {{ apache_svc }} on prod servers.
+      ansible.builtin.service:
+         name: "{{ apache_svc }}"
+         state: started 
+         enabled: true 
+
+    - name: Install firewall package {{ firewall_pkg }} on prod servers.
+      ansible.builtin.yum: 
+         name: "{{ firewall_pkg }}"
+         state: present 
+
+    - name: Start and enable firewall service {{ firewall_svc }} on prod servers.
+      ansible.builtin.service:
+         name: "{{ firewall_svc }}"
+         state: started 
+         enabled: true 
+
+    - name: Deploy application - index.html 
+      ansible.builtin.copy:
+         content: "My web server\n"
+         dest: /var/www/html/index.html 
+
+    - name: Adding firewall rules - http only.
+      ansible.posix.firewalld:
+         service: "{{firewall_rules }}"
+         immediate: yes
+         permanent: yes
+         state: enabled
+...

@@ -1,0 +1,6 @@
+
+     service_list: 
+          - sshd 
+          - httpd
+          - rsyslog 
+          - crond 

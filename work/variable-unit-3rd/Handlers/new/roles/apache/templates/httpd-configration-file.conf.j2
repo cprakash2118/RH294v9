@@ -1,0 +1,15 @@
+##### Template via roles ##########
+<VirtualHost *:80>
+ ServerAdmin webmaster@{{inventory_hostname}}
+ ServerName {{ansible_hostname}}.lab.example.com
+ ErrorLog logs/{{ansible_hostname}}-error.log
+ CustomLog logs/{{ansible_hostname}}-common.log common
+ DocumentRoot /var/www/html
+
+ <Directory /var/www/html/ >
+ Options +Indexes +FollowSymlinks +Includes
+ Order allow,deny
+ Allow from all
+ </Directory>
+
+</VirtualHost>

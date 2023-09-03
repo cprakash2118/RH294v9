@@ -1,0 +1,52 @@
+---
+ - name: Apache deployment - 1st play in this playbook
+   hosts: web 
+   vars:
+    - package_list:
+         - httpd
+         - firewalld 
+    - service_list:
+         - httpd
+         - firewalld
+   tasks:
+     - name: Package installation - 1st Task 
+       ansible.builtin.yum: 
+         name: "{{ package_list }}"
+         state: present
+
+
+     - name: Start and enable required service - 2rd Task
+       ansible.builtin.service:
+         name: "{{ item }}"
+         state: started
+         enabled: true 
+       loop: "{{ service_list }}"
+
+
+     - name: Deploying index.html page. - 3rd Task 
+       ansible.builtin.copy:
+         content: "##************** This is my web server  - {{ inventory_hostname }}  !!************** \n"
+         dest: /var/www/html/index.html 
+
+     - name: ENnable firewalld rule - http - 6th Task 
+       ansible.posix.firewalld:
+         service: http
+         immediate: yes
+         permanent: yes
+         state: enabled
+
+ - name: Verify the deployment - 2nd play 
+   hosts: localhost
+   become: no 
+   vars: 
+    - server_list:
+        servera.lab.example.com  
+   tasks:
+      - name: Verify the ULR.
+        ansible.builtin.uri:
+          url: http://{{ server_list }}
+          return_content: yes
+          status_code: 200
+ 
+
+...

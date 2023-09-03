@@ -1,0 +1,14 @@
+---
+- name: Root password change.
+  hosts: all
+  gather_facts: no
+  vars_files:
+      - password.yml 
+  tasks:
+    - name: User Creation.
+      ansible.builtin.user:
+          name: root
+          #password: "{{ 'password123' | password_hash('sha512') }}"
+          password: "{{ root_pass | password_hash('sha512') }}"
+      when: inventory_hostname in groups['qa']
+

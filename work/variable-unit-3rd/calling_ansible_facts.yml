@@ -1,0 +1,8 @@
+---
+- name: DIsplay 
+  hosts: web 
+  tasks:
+    - name: DIsplay message-01
+      ansible.builtin.debug:
+           #msg: "IPaddres - {{ ansible_facts['default_ipv4']['address'] }} \n Hardware addres - {{ ansible_facts['default_ipv4']['macaddress'] }}"
+           msg: "IPaddres - {{ ansible_facts.default_ipv4.address }} \n Hardware addres - {{ ansible_facts['default_ipv4']['macaddress'] }}"

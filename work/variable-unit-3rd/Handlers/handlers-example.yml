@@ -1,0 +1,82 @@
+---
+- name: Handlers example 
+  hosts: all 
+  force_handlers: yes
+  vars:
+     - pkg_list:
+          - httpd 
+          - firewalld 
+          - mutt 
+     - service_list:     
+          - sshd 
+          - firewalld 
+
+  tasks:
+    - name: INstall packages.
+      ansible.builtin.yum:
+         name: "{{ pkg_list }}"
+         state: present 
+      when: inventory_hostname in groups['web']
+      register: install_outcome 
+
+    - name: Multiple services start and enable.
+      ansible.builtin.service:
+         name: "{{ item }}"
+         state: started
+         enabled: true 
+      loop: "{{ service_list }}" 
+      when: inventory_hostname in groups['web']
+      register: service_outcome 
+
+    - name: Deploy application - index.html 
+      ansible.builtin.copy:
+        src: index.html
+        dest: /var/www/html/index.html 
+      when: inventory_hostname in groups['web']
+      register: service_outcome 
+
+    - name: Configration change on Apache/web server.
+      ansible.builtin.copy:
+        src: httpd-configration-file.conf
+        dest: /etc/httpd/conf.d/httpd-myconf.conf
+      when: inventory_hostname in groups['web']
+      register: service_outcome 
+      notify:
+         - restart apache 
+
+    - name: Adding firewalld rule - http & https 
+      vars:
+        - rules:
+           - http
+           - https
+      ansible.posix.firewalld:
+        service: "{{ item }}"
+        immediate: yes
+        permanent: yes
+        state: enabled
+      loop: "{{ rules }}"
+      when: inventory_hostname in groups['web']
+      register: service_outcome 
+
+    - name: DB related changed.
+      ansible.builtin.debug:
+         msg: "DB changes on all db server"
+      when: inventory_hostname in groups['db']
+      register: service_outcome 
+
+    - name: Making my task fail.
+      ansible.builtin.debug:
+         msg: "DB changes on all db server-02"
+      failed_when: true 
+       
+       
+
+  handlers:
+    - name: restart apache
+      ansible.builtin.service:
+         name: httpd
+         state: started
+         enabled: true 
+      when: inventory_hostname in groups['web']
+      register: service_outcome 
+...
