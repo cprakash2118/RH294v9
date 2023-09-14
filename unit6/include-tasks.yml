@@ -1,0 +1,7 @@
+---
+    - name: Display task-011
+      ansible.builtin.debug:
+          msg: "This is my 1st message - display  task-01  include"
+    - name: Display task-021 
+      ansible.builtin.debug:
+          msg: "This is my 2nd message - display  task-02  include"

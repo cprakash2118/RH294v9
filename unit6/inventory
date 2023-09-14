@@ -1,0 +1,14 @@
+[dev]
+servera.lab.example.com 
+
+[qa]
+serverb.lab.example.com 
+
+[prod]
+server[c:d].lab.example.com 
+
+
+[blr:children]
+dev
+prod 
+

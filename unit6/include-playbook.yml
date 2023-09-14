@@ -1,0 +1,13 @@
+---
+- name: Include example 
+  hosts: qa 
+  tasks:
+    - name: Display - task-01 
+      ansible.builtin.debug:
+          msg: "This is my 1st message - display - task-01 - include"
+    - name: Display - task-02 
+      ansible.builtin.debug:
+          msg: "This is my 2nd message - display - task-02 - include"
+
+
+  
