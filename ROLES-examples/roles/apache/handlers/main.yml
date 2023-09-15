@@ -1,0 +1,5 @@
+---
+# handlers file for apache
+- name: dummy_restart_svc
+  ansible.builtin.debug:
+       msg: "UPdate the debug \n"

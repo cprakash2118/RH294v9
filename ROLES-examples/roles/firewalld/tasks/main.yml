@@ -1,0 +1,14 @@
+---
+# tasks file for firewalld
+# tasks file for firewalld
+- name: Install firewalld packages.
+  ansible.builtin.dnf:
+       name: "{{ firewalld_package }}"
+       state: present
+
+- name: Start and enable service.
+  ansible.builtin.service:
+       name: "{{ firewalld_service }}"
+       state: started
+       enabled: yes
+

@@ -1,0 +1,19 @@
+---
+- name: Calling roles 
+  hosts: prod 
+  pre_tasks:
+      - name: UPdate pre task.
+        ansible.builtin.debug:
+             msg: "Pre-task executions  \n"
+  roles: 
+      - apache 
+  tasks:    
+      - name: UPdate task.
+        ansible.builtin.debug:
+           msg: "task executions  \n"
+
+  post_tasks:    
+      - name: UPdate Post task.
+        ansible.builtin.debug:
+           msg: "post-task executions  \n"
+  
